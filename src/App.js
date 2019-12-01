@@ -3,6 +3,6 @@ import ToggleButton from "./ToggleButton"
 
 export default function App() {
   return(
-    <ToggleButton />
+    <ToggleButton initialCondition={ false } />
   )
 }

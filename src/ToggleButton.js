@@ -6,7 +6,7 @@ export default class ToggleButton extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      isToggleOn: false
+      isToggleOn: props.initialCondition
     }
   }
 
