@@ -1,0 +1,41 @@
+$round-container-height: 30px;
+$round-container-width: 60px;
+$gap: 5px;
+
+
+.slider {
+  display: inline-block;
+  position: relative;
+  height: ($round-container-height + 2 * $gap);
+  width: ($round-container-width + 2 * $gap);
+  border-radius: $round-container-height;
+  background-color: #2196F3;
+}
+
+.slider .round-container {
+  display: inline-block;
+  position: absolute;
+  top: $gap;
+  bottom: $gap;
+  left: $gap;
+  right: $gap;
+  background-color: transparent;
+}
+
+.slider .round-container div[class^="round-"] {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: $round-container-height;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+}
+
+.slider .round-container .round-off {
+  left: 0 !important;
+}
+
+.slider .round-container .round-on{
+  right: 0 !important;
+}
