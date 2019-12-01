@@ -1,0 +1,2 @@
+.slider{display:inline-block;position:relative;height:40px;width:70px;border-radius:30px;background-color:#2196f3}.slider .round-container{display:inline-block;position:absolute;top:5px;bottom:5px;left:5px;right:5px;background-color:transparent}.slider .round-container div[class^=round-]{display:inline-block;position:absolute;top:0;bottom:0;width:30px;border-radius:50%;background-color:#f8f9fa}.slider .round-container .round-off{left:0!important}.slider .round-container .round-on{right:0!important}
+/*# sourceMappingURL=main.8e5d42f8.chunk.css.map */
